@@ -11,17 +11,5 @@ Print a simple card with your WiFi login details. Tape it to the fridge, keep it
 Run the latest Docker image on http://localhost:8080
 
 ```
-make run
-```
-
-Build the Docker image
-
-```
-make build
-```
-
-Run the live-reload server on http://localhost:8080
-
-```
-make dev
+docker-compose -f docker-compose.yml up -d
 ```

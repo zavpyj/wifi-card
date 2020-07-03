@@ -1,0 +1,11 @@
+version: '3'
+services:
+    wifi-card:
+        container_name: wifi-card
+        build: .
+        image: wifi-card:1.0.0
+        ports:
+            - 8080:80
+
+#Usage :
+#docker-compose -f docker-compose.yml up -d
